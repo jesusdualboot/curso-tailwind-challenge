@@ -15,9 +15,272 @@
   </head>
 
   <body>
-    <nav></nav>
-    <main></main>
-    <footer></footer>
+    <div
+      class="w-full text-gray-700 bg-black "
+    >
+      <div
+        class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
+      >
+        <div class="p-4 flex flex-row items-center justify-between">
+          <a
+            href="#"
+            class="text-xl font-extrabold text-white  rounded-lg"
+            >DBP LEARN</a
+          >
+          <button
+            class="md:hidden rounded-lg focus:outline-none focus:shadow-outline"
+            onclick="toggleNavbar()"
+          >
+            <svg fill="white" viewBox="0 0 20 20" class="w-6 h-6">
+              <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+        <nav id="collapseID"
+          class="flex-col flex-grow pb-4 text-white uppercase md:pb-0 hidden md:flex md:justify-end md:flex-row"
+        >
+          <a
+            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg  md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            href="#"
+            >About</a
+          >
+          <a
+            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            href="#"
+            >Services</a
+          >
+          <a
+            class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            href="#"
+            >Clients</a
+          >
+          </div>
+        </nav>
+      </div>
+    </div>
+    <header
+      class="justify-items-center flex-wrap bg-gray-400 text-white text-center py-20"
+    >
+      <h1 class="text-5xl font-bold px-5">Tailwind Challenge</h1>
+      <p class="w-2/5 mx-auto my-3">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
+        earum eum, obcaecati debitis dolore fugiat cupiditate ratione sapiente
+        cum. Cupiditate enim officia est ab autem vel rerum culpa ullam debitis?
+      </p>
+      <div>
+        <button
+          class="bg-blue-600 hover:bg-blue-300 hover:text-white rounded-md px-3 py-1"
+        >
+          Tailwind Docs
+        </button>
+
+        <button
+          class="border bg-white text-gray-700 border-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-1"
+        >
+          Sheat Cheet
+        </button>
+      </div>
+    </header>
+    <main
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 py-8 px-20"
+    >
+      <div
+        class="flex flex-col col-span-1 hover:shadow-xl min-w-0 rounded-md border"
+      >
+        <img
+          class="w-full aspect-[5/3] rounded-t-md"
+          src="https://fastly.picsum.photos/id/810/500/300.jpg?hmac=iO4T5BmsAGysru0Gd_71zoSbC4HtFrMYwwlOnGoLkFk"
+          alt="Card Image"
+        />
+        <p class="line-clamp-2 px-5 my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam
+          odit libero sequi quod dicta odio architecto.
+        </p>
+        <div class="flex justify-between px-5 mb-5">
+          <p>8 min</p>
+          <button
+            class="border border-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-1"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex flex-col col-span-1 hover:shadow-xl min-w-0 rounded-md border"
+      >
+        <img
+          class="w-full aspect-[5/3] rounded-t-md"
+          src="https://fastly.picsum.photos/id/810/500/300.jpg?hmac=iO4T5BmsAGysru0Gd_71zoSbC4HtFrMYwwlOnGoLkFk"
+          alt="Card Image"
+        />
+        <p class="line-clamp-2 px-5 my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam
+          odit libero sequi quod dicta odio architecto.
+        </p>
+        <div class="flex justify-between px-5 mb-5">
+          <p>8 min</p>
+          <button
+            class="border border-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-1"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex flex-col col-span-1 hover:shadow-xl min-w-0 rounded-md border"
+      >
+        <img
+          class="w-full aspect-[5/3] rounded-t-md"
+          src="https://fastly.picsum.photos/id/810/500/300.jpg?hmac=iO4T5BmsAGysru0Gd_71zoSbC4HtFrMYwwlOnGoLkFk"
+          alt="Card Image"
+        />
+        <p class="line-clamp-2 px-5 my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam
+          odit libero sequi quod dicta odio architecto.
+        </p>
+        <div class="flex justify-between px-5 mb-5">
+          <p>8 min</p>
+          <button
+            class="border border-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-1"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex flex-col col-span-1 hover:shadow-xl min-w-0 rounded-md border"
+      >
+        <img
+          class="w-full aspect-[5/3] rounded-t-md"
+          src="https://fastly.picsum.photos/id/810/500/300.jpg?hmac=iO4T5BmsAGysru0Gd_71zoSbC4HtFrMYwwlOnGoLkFk"
+          alt="Card Image"
+        />
+        <p class="line-clamp-2 px-5 my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam
+          odit libero sequi quod dicta odio architecto.
+        </p>
+        <div class="flex justify-between px-5 mb-5">
+          <p>8 min</p>
+          <button
+            class="border border-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-1"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex flex-col col-span-1 hover:shadow-xl min-w-0 rounded-md border"
+      >
+        <img
+          class="w-full aspect-[5/3] rounded-t-md"
+          src="https://fastly.picsum.photos/id/810/500/300.jpg?hmac=iO4T5BmsAGysru0Gd_71zoSbC4HtFrMYwwlOnGoLkFk"
+          alt="Card Image"
+        />
+        <p class="line-clamp-2 px-5 my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam
+          odit libero sequi quod dicta odio architecto.
+        </p>
+        <div class="flex justify-between px-5 mb-5">
+          <p>8 min</p>
+          <button
+            class="border border-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-1"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex flex-col col-span-1 hover:shadow-xl min-w-0 rounded-md border"
+      >
+        <img
+          class="w-full aspect-[5/3] rounded-t-md"
+          src="https://fastly.picsum.photos/id/810/500/300.jpg?hmac=iO4T5BmsAGysru0Gd_71zoSbC4HtFrMYwwlOnGoLkFk"
+          alt="Card Image"
+        />
+        <p class="line-clamp-2 px-5 my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam
+          odit libero sequi quod dicta odio architecto.
+        </p>
+        <div class="flex justify-between px-5 mb-5">
+          <p>8 min</p>
+          <button
+            class="border border-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-1"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex flex-col col-span-1 hover:shadow-xl min-w-0 rounded-md border"
+      >
+        <img
+          class="w-full aspect-[5/3] rounded-t-md"
+          src="https://fastly.picsum.photos/id/810/500/300.jpg?hmac=iO4T5BmsAGysru0Gd_71zoSbC4HtFrMYwwlOnGoLkFk"
+          alt="Card Image"
+        />
+        <p class="line-clamp-2 px-5 my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam
+          odit libero sequi quod dicta odio architecto.
+        </p>
+        <div class="flex justify-between px-5 mb-5">
+          <p>8 min</p>
+          <button
+            class="border border-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-1"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex flex-col col-span-1 hover:shadow-xl min-w-0 rounded-md border"
+      >
+        <img
+          class="w-full aspect-[5/3] rounded-t-md"
+          src="https://fastly.picsum.photos/id/810/500/300.jpg?hmac=iO4T5BmsAGysru0Gd_71zoSbC4HtFrMYwwlOnGoLkFk"
+          alt="Card Image"
+        />
+        <p class="line-clamp-2 px-5 my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam
+          odit libero sequi quod dicta odio architecto.
+        </p>
+        <div class="flex justify-between px-5 mb-5">
+          <p>8 min</p>
+          <button
+            class="border border-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-1"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex flex-col col-span-1 hover:shadow-xl min-w-0 rounded-md border"
+      >
+        <img
+          class="w-full aspect-[5/3] rounded-t-md"
+          src="https://fastly.picsum.photos/id/810/500/300.jpg?hmac=iO4T5BmsAGysru0Gd_71zoSbC4HtFrMYwwlOnGoLkFk"
+          alt="Card Image"
+        />
+        <p class="line-clamp-2 px-5 my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam
+          odit libero sequi quod dicta odio architecto.
+        </p>
+        <div class="flex justify-between px-5 mb-5">
+          <p>8 min</p>
+          <button
+            class="border border-gray-700 hover:bg-gray-700 hover:text-white rounded-md px-3 py-1"
+          >
+            Read
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="flex justify-between px-20 font-light text-md text-gray-200 italic bg-gray-800 py-10"
+    >
+      <p>2022 Company, Inc</p>
+      <div>a b c</div>
+    </footer>
+
     <script src="./app.js"></script>
   </body>
 </html>
